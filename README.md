@@ -68,8 +68,83 @@ Completeness = 0.10
 
 ---
 
-# Dataset
+## Dataset
 
 This project uses the **Microsoft 7Scenes dataset**, which contains RGB images, depth images, and camera pose annotations.
 
 Dataset structure example:
+
+```text
+7SCENES/
+├── chess
+├── fire
+├── heads
+├── office
+├── pumpkin
+├── redkitchen
+└── stairs
+```
+---
+
+# Installation
+
+Create a Python environment:
+
+```bash
+conda create -n dust3r python=3.11
+conda activate dust3r
+pip install -r requirements.txt
+```
+---
+# Install required packages
+
+```bash
+pip install timm
+pip install gdown
+pip install open3d
+pip install plyfile
+```
+---
+# Run Reconstruction
+
+Generate reconstruction results:
+
+```bash
+bash get_tests.sh
+bash get_bonus.sh
+```
+---
+
+# Repository Structure
+```text
+3D-Scene-Reconstruction
+│
+├── source/            # reconstruction algorithms
+├── reference_papers/  # related research papers
+├── guidline_PPT/      # project presentations
+├── test/              # reconstruction results
+├── bonus/             # bonus experiments
+└── README.md
+```
+---
+
+# Technologies
+```
+Python
+PyTorch
+Computer Vision
+RGB-D Reconstruction
+DUSt3R
+Fast3R
+Open3D
+```
+---
+# Authors
+```
+Peng-Bo Xiang
+Hsuan-Ying Liu
+Wun-Sin You
+National Taiwan University
+Computer Vision Course Project
+```
+---
