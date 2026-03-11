@@ -40,7 +40,7 @@ Point Cloud Integration
 ## Reconstruction Demo
 
 <p align="center">
-  <img src="docs/figures/Reconstruction_demo.gif" width="700">
+  <img src="Reconstruction_demo.gif" width="700">
 </p>
 ---
 
