@@ -2,7 +2,6 @@
 
 This project implements a computer vision pipeline for reconstructing 3D scenes from RGB-D image sequences.  
 The system generates point clouds from RGB and depth images and integrates them into a reconstructed 3D environment.
-
 This project explores modern 3D reconstruction methods using **DUSt3R**, **Fast3R**, and transformer-based pose refinement.
 
 ---
@@ -140,11 +139,19 @@ Open3D
 ```
 ---
 # Authors
-```
-Peng-Bo Xiang
-Hsuan-Ying Liu
-Wun-Sin You
+
+- Peng-Bo Xiang
+- Hsuan-Ying Liu
+- Wun-Sin You
+  
 National Taiwan University
 Computer Vision Course Project
-```
+
+
+---
+# References
+
+- DUSt3R: Geometric 3D Vision Made Easy
+- Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass
+
 ---
