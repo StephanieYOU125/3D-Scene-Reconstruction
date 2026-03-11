@@ -37,6 +37,12 @@ Point Cloud Integration
 3D Scene Reconstruction  
 
 ---
+## Reconstruction Demo
+
+<p align="center">
+  <img src="docs/figures/Reconstruction_demo.gif" width="700">
+</p>
+---
 
 # Methods
 
